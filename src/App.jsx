@@ -42,7 +42,9 @@ function App() {
       <li><a href="#tecnologias">Tecnologías</a></li>
       <li><a href="#proyectos">Proyectos</a></li>
       <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#certificaciones">Certificaciones</a></li>
       <li><a href="#contacto">Contacto</a></li>
+      
     </ul>
   </div>
 </nav>
@@ -86,7 +88,7 @@ function App() {
         <h3>Mis proyectos</h3>
         <div className="lista-proyectos">
           <div className="tarjeta-proyecto">
-            <img src="https://via.placeholder.com/300x180.png?text=E-commerce+React" alt="Proyecto Ecommerce" />
+            <img src="/img/captura.jpeg.jpeg" alt="Proyecto Ecommerce" />
             <h4>E-commerce Full Stack</h4>
             <p>Tienda online con React, Node.js y MongoDB. Carrito, login y panel admin.</p>
             <div className="botones-proyecto">
@@ -123,6 +125,30 @@ function App() {
           </p>
         </div>
       </section>
+
+            <section className="certificaciones" id="certificaciones">
+  <h3>Certificaciones</h3>
+  <div className="lista-certificaciones">
+    <div className="tarjeta-certificacion">
+      <img src="/img/Certificado-Full-Stack.png" alt="Diploma Educación IT" />
+      <h4>Desarrollador Web Full Stack</h4>
+      <p>Educación IT (Argentina)</p>
+      <a href="https://drive.google.com/file/d/1MUOGeaJC2KSgeCvceTVIBZAjnQalTdyb/view?usp=sharing" target="_blank" rel="noreferrer">Ver diploma</a>
+    </div>
+    <div className="tarjeta-certificacion">
+      <img src="/img/Inglés-técnico.png" alt="Diploma Coderhouse" />
+      <h4>Inglés Técnico</h4>
+      <p>Coderhouse</p>
+      <a href="https://drive.google.com/file/d/1FUe_SO1sVvmAhZdj_WhCzAHBE4wSgcGq/view?usp=sharing" target="_blank" rel="noreferrer">Ver diploma</a>
+    </div>
+    <div className="tarjeta-certificacion">
+      <img src="/img/Inglés-técnico.pn" alt="Diploma Coderhouse" />
+      <h4>Liderazgo de equipos ágiles</h4>
+      <p>Educación IT</p>
+      <a href="https://drive.google.com/tu-link-al-diploma-2" target="_blank" rel="noreferrer">Ver diploma</a>
+    </div>
+  </div>
+</section>
 
       <section className="contacto seccion-animada" id="contacto">
         <h3>Contacto</h3>
