@@ -97,12 +97,12 @@ function App() {
             </div>
           </div>
           <div className="tarjeta-proyecto">
-            <img src="https://via.placeholder.com/300x180.png?text=Task+Manager" alt="Proyecto Task Manager" />
+            <img src="/img/Task-app.jpeg" alt="Proyecto Task Manager" />
             <h4>Gestor de Tareas</h4>
             <p>CRUD completo con React + Express + Mongo. Gestión de tareas por usuario.</p>
             <div className="botones-proyecto">
-              <a href="#" target="_blank" rel="noreferrer">Ver demo</a>
-              <a href="#" target="_blank" rel="noreferrer">Ver código</a>
+              <a href="https://task-app-42.netlify.app/" target="_blank" rel="noreferrer">Ver demo</a>
+              <a href="https://github.com/MateoEnnis/Task-app.git" target="_blank" rel="noreferrer">Ver código</a>
             </div>
           </div>
         </div>
