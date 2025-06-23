@@ -142,10 +142,16 @@ function App() {
       <a href="https://drive.google.com/file/d/1FUe_SO1sVvmAhZdj_WhCzAHBE4wSgcGq/view?usp=sharing" target="_blank" rel="noreferrer">Ver diploma</a>
     </div>
     <div className="tarjeta-certificacion">
-      <img src="/img/Inglés-técnico.pn" alt="Diploma Coderhouse" />
-      <h4>Liderazgo de equipos ágiles</h4>
+      <img src="/img/Certificado-Liderazgo-para-Equipos-Agiles.png" alt="Diploma Coderhouse" />
+      <h4>Liderazgo De Equipos Agiles</h4>
       <p>Educación IT</p>
-      <a href="https://drive.google.com/tu-link-al-diploma-2" target="_blank" rel="noreferrer">Ver diploma</a>
+      <a href="https://drive.google.com/file/d/1OB0kr1eL_YR4sL6lVe5xExcFPZ0lH2ci/view?usp=drive_link" target="_blank" rel="noreferrer">Ver diploma</a>
+    </div>
+     <div className="tarjeta-certificacion">
+      <img src="/img/Inteligencia-artificial-para-la-productividad.jpeg" alt="EGG" />
+      <h4>Inteligencia Artificial Para La Productividad</h4>
+      <p>EGG</p>
+      <a href="https://drive.google.com/file/d/1qTRwiPGaMzZt9ZAWE3VrtMiS57PtkrBx/view?usp=drive_link" target="_blank" rel="noreferrer">Ver diploma</a>
     </div>
   </div>
 </section>
