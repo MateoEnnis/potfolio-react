@@ -184,11 +184,16 @@ function App() {
             <li><a href="#certificaciones">{t.certificaciones}</a></li>
             <li><a href="#contacto">{t.contacto}</a></li>
           </ul>
-          <select className="selector-idioma" value={idioma} onChange={(e) => setIdioma(e.target.value)}>
-            <option value="es">🇪🇸</option>
-            <option value="en">🇬🇧</option>
-            <option value="fr">🇫🇷</option>
-          </select>
+          <select
+  className="selector-idioma"
+  value={idioma}
+  onChange={(e) => setIdioma(e.target.value)}
+>
+  <option value="es">Español</option>
+  <option value="en">English</option>
+  <option value="fr">Français</option>
+</select>
+
         </div>
       </nav>
 
@@ -261,32 +266,45 @@ function App() {
 
 
 <section className="certificaciones" id="certificaciones">
-  <h3>Certificaciones</h3>
+  <h3>{t.certificaciones}</h3>
   <div className="lista-certificaciones">
+
     <div className="tarjeta-certificacion">
-      <img src="/img/Certificado-Full-Stack.png" alt="Diploma Educación IT" />
-      <h4>Desarrollador Web Full Stack</h4>
-      <p>Educación IT</p>
-      <a href="https://drive.google.com/file/d/1MUOGeaJC2KSgeCvceTVIBZAjnQalTdyb/view?usp=sharing" target="_blank" rel="noreferrer">Ver diploma</a>
+      <img src="/img/Certificado-Full-Stack.png" alt={t.fullStackTitulo} />
+      <h4>{t.fullStackTitulo}</h4>
+      <p>{t.fullStackInstitucion}</p>
+      <a href="https://drive.google.com/file/d/1MUOGeaJC2KSgeCvceTVIBZAjnQalTdyb/view?usp=sharing" target="_blank" rel="noreferrer">
+        {t.verDiploma}
+      </a>
     </div>
+
     <div className="tarjeta-certificacion">
-      <img src="/img/Inglés-técnico.png" alt="Diploma Educación IT" />
-      <h4>Inglés Técnico</h4>
-      <p>Coderhouse</p>
-      <a href="https://drive.google.com/file/d/1FUe_SO1sVvmAhZdj_WhCzAHBE4wSgcGq/view?usp=sharing" target="_blank" rel="noreferrer">Ver diploma</a>
+      <img src="/img/Inglés-técnico.png" alt={t.inglesTitulo} />
+      <h4>{t.inglesTitulo}</h4>
+      <p>{t.inglesInstitucion}</p>
+      <a href="https://drive.google.com/file/d/1FUe_SO1sVvmAhZdj_WhCzAHBE4wSgcGq/view?usp=sharing" target="_blank" rel="noreferrer">
+        {t.verDiploma}
+      </a>
     </div>
+
     <div className="tarjeta-certificacion">
-      <img src="/img/Certificado-Liderazgo-para-Equipos-Agiles.png" alt="Diploma Educación IT" />
-      <h4>Liderazgo de equipos ágiles</h4>
-      <p>Educación IT</p>
-      <a href="https://drive.google.com/file/d/1OB0kr1eL_YR4sL6lVe5xExcFPZ0lH2ci/view?usp=drive_link" target="_blank" rel="noreferrer">Ver diploma</a>
+      <img src="/img/Certificado-Liderazgo-para-Equipos-Agiles.png" alt={t.liderazgoTitulo} />
+      <h4>{t.liderazgoTitulo}</h4>
+      <p>{t.liderazgoInstitucion}</p>
+      <a href="https://drive.google.com/file/d/1OB0kr1eL_YR4sL6lVe5xExcFPZ0lH2ci/view?usp=drive_link" target="_blank" rel="noreferrer">
+        {t.verDiploma}
+      </a>
     </div>
+
     <div className="tarjeta-certificacion">
-      <img src="/img/Inteligencia-artificial-para-la-productividad.jpeg" alt="Diploma Educación IT" />
+      <img src="/img/Inteligencia-artificial-para-la-productividad.jpeg" alt="IA para la productividad" />
       <h4>Inteligencia Artificial Para La Productividad</h4>
       <p>EGG</p>
-      <a href="https://drive.google.com/file/d/1qTRwiPGaMzZt9ZAWE3VrtMiS57PtkrBx/view?usp=drive_link" target="_blank" rel="noreferrer">Ver diploma</a>
+      <a href="https://drive.google.com/file/d/1qTRwiPGaMzZt9ZAWE3VrtMiS57PtkrBx/view?usp=drive_link" target="_blank" rel="noreferrer">
+        {t.verDiploma}
+      </a>
     </div>
+
   </div>
 </section>
 

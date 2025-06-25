@@ -538,3 +538,28 @@ body {
 .footer-redes a:hover {
   color: #79c0ff;
 }
+
+.selector-idioma {
+  margin-left: 20px;
+  padding: 8px 16px;
+  background-color: #21262d;
+  color: #f0f6fc;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.selector-idioma:hover {
+  background-color: #30363d;
+  border-color: #58a6ff;
+  color: #58a6ff;
+}
+
+.selector-idioma:focus {
+  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.4);
+  border-color: #58a6ff;
+}
