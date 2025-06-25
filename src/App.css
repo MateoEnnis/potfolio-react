@@ -505,3 +505,36 @@ body {
 .tarjeta-certificacion a:hover {
   background-color: #2ea043;
 }
+
+.footer {
+  background-color: #161b22;
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 1px solid #30363d;
+}
+
+.footer-contenido {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #8b949e;
+  font-size: 0.95rem;
+}
+
+.footer-redes {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-redes a {
+  color: #58a6ff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-redes a:hover {
+  color: #79c0ff;
+}
